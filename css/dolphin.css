@@ -20,3 +20,14 @@ html {
 
 /* Write your solution here */
 
+@media screen and (max-width: 1090px) and (min-width: 642px){
+  #dolphin{
+    top:50px;
+    transform: rotate(-60deg);
+  }
+}
+@media screen and (max-width: 641px){
+  #dolphin{
+    transform: rotate(-120deg);
+  }
+}
